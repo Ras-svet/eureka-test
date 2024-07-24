@@ -1,0 +1,125 @@
+.table {
+  &__container {
+    max-height: 220.8px;
+    overflow-y: auto;
+  }
+
+  &__title {
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 28px;
+  letter-spacing: 0.02em;
+  color: #353D4B
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__data {
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px 12px 0 0;
+  
+    thead {
+      background-color: #fff;
+  
+      th {
+        margin: 0 0;
+        padding: 20px 29px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        border-bottom: 1px solid #000;
+      
+        &:first-of-type {
+          border-right: 1px solid #000;
+          border-radius: 12px 0 0 0;
+        }
+
+        &:last-of-type {
+          border-radius: 0 12px 0 0;
+        }
+      }
+    }
+  
+    tbody {
+      td {
+        border: 1px solid #000;
+        border-top: none;
+        padding: 5.6px;
+        height: 20px;
+        min-height: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: left;
+  
+        &:first-of-type {
+          border-left: none;
+        }
+  
+        &:last-of-type {
+          border: none;
+          border-bottom: 1px solid #000;
+        }
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: 16px;
+    border-radius: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4587ED;
+    background-repeat: no-repeat;
+    margin: auto 0;
+
+    &:hover {
+      background-color: #3573D2;
+      cursor: pointer;
+    }
+
+    &:active {
+      background-color: #225CB5;
+    }
+
+    &:focus{
+      background-color: #3573D2;
+      outline: none;
+    }
+
+    &:disabled {
+      background-color: #ABC7F2;
+    }
+
+    &-add {
+      background-image: url(../../images/ButtonAdd.svg);
+    }
+
+    &-delete {
+      background-image: url(../../images/ButtonDelete.svg);
+      background-size: 20px;
+    }
+  }
+}
