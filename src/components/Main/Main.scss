@@ -4,6 +4,10 @@
   padding: 40px 0 0 0;
   margin: 0;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
 }
 
 .tables {
@@ -12,4 +16,12 @@
   grid-template-rows: repeat(2, 1fr);
   max-width: 757px;
   gap: 40px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    padding: 0 12px;
+  }
 }

@@ -5,3 +5,10 @@
   margin: 0;
   padding: 20px 0;
 }
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 20px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
