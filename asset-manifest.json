@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eureka-test/static/css/main.d21040c9.css",
+    "main.css": "/eureka-test/static/css/main.7ebf9827.css",
     "main.js": "/eureka-test/static/js/main.f8041685.js",
     "static/media/Roboto-Medium.woff": "/eureka-test/static/media/Roboto-Medium.b14ca2d2b289afceb0b0.woff",
     "static/media/Roboto-Medium.woff2": "/eureka-test/static/media/Roboto-Medium.fc0337b9cf1cce2e6e1e.woff2",
@@ -8,11 +8,11 @@
     "index.html": "/eureka-test/index.html",
     "static/media/ButtonAdd.svg": "/eureka-test/static/media/ButtonAdd.3eaf8c3a570455a8f635.svg",
     "static/media/close-button.svg": "/eureka-test/static/media/close-button.66cef32eb1de590a58c0.svg",
-    "main.d21040c9.css.map": "/eureka-test/static/css/main.d21040c9.css.map",
+    "main.7ebf9827.css.map": "/eureka-test/static/css/main.7ebf9827.css.map",
     "main.f8041685.js.map": "/eureka-test/static/js/main.f8041685.js.map"
   },
   "entrypoints": [
-    "static/css/main.d21040c9.css",
+    "static/css/main.7ebf9827.css",
     "static/js/main.f8041685.js"
   ]
 }
