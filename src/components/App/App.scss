@@ -19,4 +19,8 @@ $content-width: 757px; // Ширина контента
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
 }
